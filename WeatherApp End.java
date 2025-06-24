@@ -45,6 +45,7 @@ class WeatherApp {
                     }else{
                         System.out.println("ソート順が指定されなかったか、無効な値のため、昇順でソートします。");
                     }
+                    System.out.println(sortOrderDisplay + "でソートします");
                 }
                 if (temperatures[i] > temperatures[j]) { 
                     int temp = temperatures[i]; // temperatures[i]の値をtempに避難

@@ -8,3 +8,10 @@ public class fate{
         }
     }
 }
+
+
+
+
+
+
+System.out.printf("%-15s", (salesData[i][j] != null ? salesData[i][j] : ""));
