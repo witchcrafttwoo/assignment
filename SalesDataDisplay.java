@@ -107,7 +107,7 @@ public class SalesDataDisplay {
         for(int i = 0;i<Count;i++){
             String pid =sumTable[i][0];
             String amt =sumTable[i][1];
-            System.out.printf("商品id: %-10s2f の合計金額: %s 円\n",pid,amt);
+            System.out.printf("商品id: %-10s の合計金額: %2s 円\n",pid,amt);
         }
     }
 }
