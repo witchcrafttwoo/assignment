@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+
+public class Aho{
+    public static void main(String[] args){
+        Scanner scanner = new scanner(System.in);
+        System.out.println("2桁の数を打ち込んで下さい");
+        String str = scanner.nextLine();
+
+    }
+}

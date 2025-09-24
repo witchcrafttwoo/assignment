@@ -69,7 +69,7 @@ public class SalesDataDisplayG {
         System.out.println("\n--------------------------------------------------------------------------------------------------");
 
         // データ行を表示 (インデックスベース)
-        for (int i = 0; i < rowCount; i++) {
+        for (int i = 0; i < rowCount; ++i) {
             for (int j = 0; j < maxColCount; j++) {
                 // nullチェックと整形
                 System.out.printf("%-15s", (salesData[i][j] != null ? salesData[i][j] : ""));

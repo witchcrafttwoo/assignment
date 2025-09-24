@@ -4,6 +4,7 @@ class WeatherApp {
     public static void main(String[] args) {
         Random random = new Random();
         
+        
         // 1週間（7日間）分の気温を格納する配列
         int[] temperatures = new int[7]; 
 

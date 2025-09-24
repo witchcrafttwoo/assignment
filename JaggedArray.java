@@ -7,7 +7,7 @@ class JaggedArray {
             {30, 40, 50, 60, 70},
             {80, 90, 100}
         };
-
+        boolean b1 = true ,b2 = false;
         // 1次元目の要素数 (行数) を取得
         System.out.println("配列全体の行数: " + jaggedNumbers.length); // 期待値: 3
 
@@ -19,6 +19,10 @@ class JaggedArray {
                 System.out.print(jaggedNumbers[i][j] + " ");
             }
             System.out.println();  
+        }
+        int i = 0;
+        for(i = 1;i<10;i++ ){
+            
         }
     }
 }
